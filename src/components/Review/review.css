@@ -82,6 +82,9 @@ color: #AEAEAE;
 
 }
 .MainReviewContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: auto;
     height: auto;
     /* background-color: #7563F3; */

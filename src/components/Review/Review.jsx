@@ -7,7 +7,7 @@ import EachReview from './EachReview';
 import "../Review/review.css";
 import { FaGreaterThan, FaLessThan  } from "react-icons/fa";
 export default function Review(){
-    const[count,setCount]=useState(0);
+    
 
     var reviewList=[{'image':image,'name':"Hannah Schmitt",'company':"Rubin Snacks",
     'content':"My 8-year-old daughter has started having coding lessons and I must say that she has learned a lot."+
@@ -23,10 +23,12 @@ export default function Review(){
     'content':"My 8-year-old daughter has started having coding lessons and I must say that she has learned a lot."+
     "She has fun during the lessons and enjoys learning new things!"+"It has been an interesting journey and I really do hope that she will continue coding! Thank you!"}
 ];
+const[count,setCount]=useState(0);
+    const[before,setBefore]=useState(reviewList.length);
+    const[after,setAfter]=useState(1);
         function LessThan(){
             if(count<(reviewList.length-1)){
                 setCount(count+1); 
-                console.log(count);
             }
             else if(count===(reviewList.length-1)){
                 setCount(0);
@@ -48,6 +50,16 @@ export default function Review(){
     <FaGreaterThan className='FaGreaterThan' onClick={GreaterThan}/>
     </div>
     <div className='MainReviewContent'>
+    <EachReview 
+        image={reviewList[count].image}
+        name={reviewList[count].name}
+        company={reviewList[count].company}
+        content={reviewList[count].content}/>
+    <EachReview 
+        image={reviewList[count].image}
+        name={reviewList[count].name}
+        company={reviewList[count].company}
+        content={reviewList[count].content}/>
     <EachReview 
         image={reviewList[count].image}
         name={reviewList[count].name}
