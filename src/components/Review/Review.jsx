@@ -28,7 +28,7 @@ export default function Review(){
                 setCount(count+1); 
                 console.log(count);
             }
-            else if(count==(reviewList.length-1)){
+            else if(count===(reviewList.length-1)){
                 setCount(0);
             }
            
@@ -37,14 +37,14 @@ export default function Review(){
             if(count>0){
                 setCount(count-1);
             }
-            else if(count==0){ 
+            else if(count===0){ 
                 setCount(reviewList.length-1);
             }
         }  
     return<section className='MainReview'>
     <div className='MainReviewTitle' >
     <FaLessThan className='FaLessThan' onClick={LessThan} />
-        <h1>Parent Review</h1> 
+        <h1>Review</h1> 
     <FaGreaterThan className='FaGreaterThan' onClick={GreaterThan}/>
     </div>
     <div className='MainReviewContent'>
