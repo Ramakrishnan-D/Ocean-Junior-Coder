@@ -1,0 +1,47 @@
+/* Header Section */
+.navbar {
+  background-color: #e8456c;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.navbar img {
+  width: 75%;
+  height: 2.3rem;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menus {
+  color: rgb(248, 245, 245);
+  font-weight: 700;
+  /* display: flex;
+    justify-content: space-between; */
+  margin-left: 40px;
+}
+.login {
+  display: flex;
+  justify-content: space-between;
+}
+.register {
+  background-color: cadetblue;
+  border-width: 1.5px;
+  border-color: rgb(6, 6, 6);
+  background: linear-gradient(#9e6580);
+  border-style: solid;
+  border-radius: 15%;
+  padding: 10px;
+}
+.signIn {
+  margin: 0px 40px;
+  background-color: cadetblue;
+  border-width: 1.5px;
+  border-color: rgb(6, 6, 6);
+  border-style: solid;
+  border-radius: 15%;
+  padding: 7px;
+}

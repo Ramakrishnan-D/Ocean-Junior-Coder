@@ -1,0 +1,89 @@
+/* OnlineCourses page starts */
+.OnlineCourses{
+    width: 100%;
+    height: 100%;
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.OnlineCoursesImage{
+    width: 45%;
+    height: 100%;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+.OnlineCoursesImage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.OnlineCoursesContent{
+    width: 40%;
+    height: 100%;  
+    padding: 20px 45px;
+}
+.OnlineCoursesImage h1{
+    display: none;
+    text-align: center;
+} 
+ .OnlineCoursesContent h1 ,.OnlineCoursesImage h1 {
+    margin: 20px 10px;
+    font-size: xx-large;
+} 
+.OnlineCoursesContent p{
+    text-align: justify;
+}
+.OnlineCoursesContent button{
+    background-image: linear-gradient(to right, #7563F3 , #9B51BC);
+    width: 200px;
+    height: 50px;
+    border: 0;
+    align-items: center;
+    transition: 0.5s;
+    margin: 30px 0;
+    color: white;
+    border-radius: 10px;
+    font-size: medium;
+}
+.OnlineCoursesContent button:hover{
+    opacity: 0.8;
+}
+@media (max-width:860px){
+    .OnlineCourses{
+        flex-direction: column;
+    }
+    .OnlineCoursesImage{
+        width: auto;
+        height: auto;  
+        padding: 40px;
+    }
+    .OnlineCoursesContent {
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .OnlineCoursesContent h1{
+       display: none;
+    } 
+    .OnlineCoursesImage h1{
+        display: block;
+        font-size: 180%;
+    }
+}
+@media (max-width:550px){
+    .OnlineCoursesContent button{
+        width: 50%;
+        height: 50px;
+        font-size: 95%;
+    }
+    .OnlineCoursesContent p{
+        font-size: 90%;
+    }
+}
+/* OnlineCourses page ends */

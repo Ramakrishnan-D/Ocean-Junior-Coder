@@ -1,0 +1,29 @@
+/* CouseList Section */
+.courseSection {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(38, 32, 32);
+}
+
+.coursesLists {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.courseComponent {
+  border-style: solid;
+  border-width: 1.5px;
+  border-radius: 30px;
+  width: 300px;
+  padding: 40px;
+  background-image: linear-gradient(to bottom right, #5031f4, #0fbaf6, #a2f7c6);
+}
+.ageSlot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 600;
+}
+.courseComponent h1 {
+  font-size: 30px;
+}

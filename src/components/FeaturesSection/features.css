@@ -1,0 +1,12 @@
+/* Features Section */
+.featuresOuter {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.featuresSection {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

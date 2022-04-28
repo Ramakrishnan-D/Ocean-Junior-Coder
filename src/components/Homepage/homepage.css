@@ -1,0 +1,32 @@
+/* HomePage Section */
+
+.homePageImg {
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.coverTextOuter {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.coverText {
+  position: absolute;
+  z-index: 3;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.coverText h1 {
+  font-size: 40px;
+}
+.coverText p {
+  font-size: 20px;
+  font-family: 400;
+}
