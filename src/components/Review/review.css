@@ -3,10 +3,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 5s;
     /* background-image:linear-gradient(to right, #7563F3 , #9B51BC);  */
 }
 .EachReview{
-    height: auto;
+    height: 450px;
     width: 350px;
     display: flex;
     flex-direction: column;
@@ -14,17 +15,28 @@
     justify-content: center;
     text-align: center;
     margin: 50px 20px 20px;
-    padding: 0 20px 20px;
-    background-image:linear-gradient(to right, #7563F3 , #9B51BC); 
-   
+    padding: 0 30px 20px;
+    background-color: #7563F3;
+    /* background-image:linear-gradient(to right, #7563F3 , #9B51BC);  */
     border-radius: 30px;
+    transition: 5s;
+}
+#ContentMiddleReview{
+    width: 500px;
+    height: 500px;
+    transition: 5s;
+    background-color:#9B51BC;
+    /* background-image:linear-gradient(to right, #7563F3 , #9B51BC);  */
 }
 .ReviewPersonImage {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     margin: 10px;
-    margin-top:-35px;
+    margin-top:-40px;
+}
+#ContentMiddleReview .ReviewPersonImage{
+    margin-top:-180px;
 }
 .ReviewPersonImage img{
     width: 100%;
@@ -33,14 +45,17 @@
 }
 .ReviewPersonTitle{
     margin: 20px;
+    transition: 5s;
 }
 .ReviewPersonTitle h1{
     color: white;
+    transition: 10s;
 
 }
 .ReviewPersonTitle p{
     margin-top: 5px;
-color: #AEAEAE;
+    color: #AEAEAE;
+    transition: 10s;
 
 }
 .LeftQuote{
@@ -62,6 +77,8 @@ color: #AEAEAE;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    user-select: none;
+    margin: 10%;
     
 }
 .MainReviewTitle {
@@ -79,7 +96,6 @@ color: #AEAEAE;
     font-size: 2.4rem;
     color: #77468e;
     cursor: pointer;
-
 }
 .MainReviewContent{
     display: flex;
@@ -88,5 +104,4 @@ color: #AEAEAE;
     width: auto;
     height: auto;
     /* background-color: #7563F3; */
-
 }
