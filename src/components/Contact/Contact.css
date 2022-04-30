@@ -1,0 +1,53 @@
+.ContactSection{
+    background-image: linear-gradient(to right, #7563F3 , #9B51BC);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ContactImage{
+    width: 40%;
+    height: 500px;
+}
+.ContactImage img{
+    width: 100%;
+    height: 100%;
+}
+.ContactForm{
+    width: 45%;
+    height: auto;
+}
+.ContactForm h1{
+    color: white;
+    font-size: 2.8rem;
+    word-spacing: 15px;
+    
+
+}
+input[type=text]{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+input[type=text]:focus  {
+    outline: none;
+}
+button{
+    margin: 20px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #29033b;
+    background-image: linear-gradient(to right, #260bd59b , #29033b);
+    color: white;
+    cursor: pointer;
+    font-size: large;
+}
+button:hover{
+    opacity: 0.8;
+}

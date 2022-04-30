@@ -3,8 +3,10 @@ import "../Review/review.css";
 import image from "./images/eliott.jpg";
 import { FaQuoteLeft  } from "react-icons/fa";
 export default function EachReview(props){
-    return<section className='Review'>
-        <div className='EachReview'>
+    var idname=props.IdNameProps;
+
+    return<section className='Review' >
+        <div id={idname}  className='EachReview' >
             <div className='ReviewPersonImage'>
                 <img src={props.image} alt="personImage"/>
             </div>

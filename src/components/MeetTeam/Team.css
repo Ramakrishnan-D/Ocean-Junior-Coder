@@ -1,0 +1,78 @@
+.TeamSection{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.TeamTitle{
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    
+}
+.TeamMember{
+    width: 293px;
+    height: 480px;
+}
+.MemberImage{
+    margin: 0;
+    width: 293px;
+    height: 293px;
+}
+.MemberImage img{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.MemberTitle{
+    padding: 20px;
+}
+.MemberTitle h3{
+    margin-bottom: 5px;
+}
+.MemberLink{
+    padding-bottom: 10px;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Icon{
+    
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    transition: 0.5s;
+}
+.TeamContent{
+    margin: 0;
+}
+.TeamContent:hover{
+    background-image: linear-gradient(to right, #7563F3 , #9B51BC);
+    transition: 2s;
+}
+.facebook:hover{
+    background-color: #4267B2;
+}
+.instagram:hover{
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, 
+    #d92e7f 62%, #9b36b7 85%, #515ecf);
+
+}    
+.twitter:hover{
+    background-color: #1DA1F2;
+}
+.WholeTeam{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}

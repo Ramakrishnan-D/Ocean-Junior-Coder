@@ -10,10 +10,16 @@ import Review from "./Review/Review";
 import Stratergy from "./Stratergy/Stratergy";
 import SpecialFeatures from "./SpecialFeatures/SpecialFeatures";
 import FaqSection from "./FaqSection/FaqSection";
+import Test from "./Practice/test";
+import Team from "./MeetTeam/Team.jsx";
+import MobileApp from "./MobileAppDesign/MobileApp.jsx";
+import Contact from "./Contact/Contact.jsx";
+import Footer from "./Footer/Footer.jsx";
 
 export default function App() {
   return (
     <>
+      {/* <Test/> */}
       <Navbar />
       <HomePage />
       <Aboutus />
@@ -25,6 +31,10 @@ export default function App() {
       <Stratergy />
       <SpecialFeatures />
       <FaqSection />
+      <MobileApp />
+      <Team />
+      <Contact />
+      <Footer />
     </>
   );
 }
