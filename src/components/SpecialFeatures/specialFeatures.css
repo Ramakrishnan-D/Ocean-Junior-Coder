@@ -1,0 +1,72 @@
+/* Special Features Section */
+
+.specialFeaturesOuter {
+  background-color: rgba(186, 203, 233, 0.839);
+  display: flex;
+  /* height: 80vh; */
+  margin-top: 50px;
+  padding: 10%;
+  object-fit: fill;
+  justify-content: center;
+}
+.featuresParts {
+  display: flex;
+  width: 80%;
+}
+.featuresPart1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50vw;
+  /* justify-content: space-evenly; */
+  justify-content: center;
+}
+.featuresModel {
+  border-radius: 10%;
+  background-color: white;
+  margin-top: 20px;
+  height: 120px;
+  width: 130px;
+}
+.featuresPart2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50vw;
+}
+/* .featuresPart2Inner {
+} */
+.featuresPart2Inner h1 {
+  font-size: 38px;
+  color: white;
+  text-align: left;
+  width: 50%;
+}
+.featuresPart2Inner p {
+  color: white;
+  font-size: 16px;
+  margin-top: 50px;
+  opacity: 70%;
+  text-align: left;
+}
+.featureKnowMoreBtn {
+  background-color: cornsilk;
+  border: solid chocolate;
+  border-width: 3.5px;
+  border-radius: 20px;
+  width: 150px;
+  height: 50px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+.featuresIconPart1 {
+  margin-top: 50px;
+  margin-right: 30px;
+}
+.featureIcon {
+  border-radius: 30%;
+  width: 70px;
+  height: 70px;
+}

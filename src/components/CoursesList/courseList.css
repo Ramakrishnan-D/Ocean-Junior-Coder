@@ -1,4 +1,14 @@
 /* CouseList Section */
+.coursesListOutermost {
+  display: flex;
+  justify-content: center;
+}
+.coursesListsOuter {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  width: 80%;
+}
 .courseSection {
   display: flex;
   flex-wrap: wrap;
@@ -7,8 +17,8 @@
 
 .coursesLists {
   display: flex;
-  justify-content: space-around;
-  margin-top: 50px;
+  justify-content: space-evenly;
+  margin-top: 100px;
 }
 .courseComponent {
   border-style: solid;

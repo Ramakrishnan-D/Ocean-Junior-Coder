@@ -1,0 +1,62 @@
+.stratergySection {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.stratergyOuter {
+  position: relative;
+  width: 80%;
+  height: 300px;
+  overflow: hidden;
+  /* top: 0; */
+}
+.imageDarker {
+  background-image: url(./Kid1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 250px;
+  height: 100%;
+}
+.statergyContent {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.43);
+  min-height: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.statisticsData {
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  background-color: aliceblue;
+  opacity: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.statisticsValue {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.81);
+  opacity: 250%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.statisticsValue h2 {
+  font-weight: 900;
+  opacity: 100%;
+  color: white;
+}
+.statisticsDataOuter p {
+  margin-top: 20px;
+  color: white;
+}

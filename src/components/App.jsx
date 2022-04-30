@@ -7,6 +7,9 @@ import FeaturesSection from "./FeaturesSection/FeaturesSection";
 import Aboutus from "./Aboutus/Aboutus";
 import OnlineCourses from "./OnlineCourses/OnlineCourses";
 import Review from "./Review/Review";
+import Stratergy from "./Stratergy/Stratergy";
+import SpecialFeatures from "./SpecialFeatures/SpecialFeatures";
+import FaqSection from "./FaqSection/FaqSection";
 
 export default function App() {
   return (
@@ -19,6 +22,9 @@ export default function App() {
       <CourseList />
       <FeaturesSection />
       <Review />
+      <Stratergy />
+      <SpecialFeatures />
+      <FaqSection />
     </>
   );
 }
