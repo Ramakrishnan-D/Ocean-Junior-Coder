@@ -7,8 +7,6 @@ import EachReview from './EachReview';
 import "../Review/review.css";
 import { FaGreaterThan, FaLessThan  } from "react-icons/fa";
 export default function Review(){
-    
-
     var reviewList=[{'image':"https://codevidhya.com/wp-content/uploads/2021/08/ASPA-ASPASIA-STERGIOPOULOU.jpg",'name':"Hannah Schmitt",'company':"Rubin Snacks",
     'content':"My 8-year-old daughter has started having coding lessons and I must say that she has learned a lot."+
     "She has fun during the lessons and enjoys learning new things!"+"It has been an interesting journey and I really do hope that she will continue coding! Thank you!"}

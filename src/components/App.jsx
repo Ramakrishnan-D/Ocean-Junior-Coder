@@ -7,10 +7,16 @@ import FeaturesSection from "./FeaturesSection/FeaturesSection";
 import Aboutus from "./Aboutus/Aboutus";
 import OnlineCourses from "./OnlineCourses/OnlineCourses";
 import Review from "./Review/Review";
+import Test from './Practice/test'
+import Team from "./MeetTeam/Team.jsx";
+import MobileApp from "./MobileAppDesign/MobileApp.jsx";
+import Contact from "./Contact/Contact.jsx";
+import Footer from "./Footer/Footer.jsx";
 
 export default function App() {
   return (
     <>
+    {/* <Test/> */}
       <Navbar />
       <HomePage />
       <Aboutus />
@@ -19,6 +25,10 @@ export default function App() {
       <CourseList />
       <FeaturesSection />
       <Review />
+      <MobileApp />
+      <Team />
+      <Contact />
+      <Footer/>
     </>
   );
 }
