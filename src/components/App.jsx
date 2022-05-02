@@ -14,6 +14,7 @@ import Team from "./MeetTeam/Team.jsx";
 import MobileApp from "./MobileAppDesign/MobileApp.jsx";
 import Contact from "./Contact/Contact.jsx";
 import Footer from "./Footer/Footer.jsx";
+import Ramakrishnan from "./Ramakrishnan";
 
 export default function App() {
   return (
@@ -33,6 +34,7 @@ export default function App() {
       <Team />
       <Contact />
       <Footer />
+      <Ramakrishnan />
     </>
   );
 }
