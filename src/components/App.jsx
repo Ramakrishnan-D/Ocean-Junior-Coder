@@ -33,6 +33,7 @@ export default function App() {
       <Team />
       <Contact />
       <Footer />
+      
     </>
   );
 }

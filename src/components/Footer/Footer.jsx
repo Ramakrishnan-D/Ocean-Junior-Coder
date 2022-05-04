@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import {FaMobile ,FaMailBulk ,FaSearchLocation} from "react-icons/fa";
+import DropDown from "../DropDown/DropDown.jsx";
 export default function Footer(){
     return <section className="FooterSection">
     <div className="Logo">
@@ -23,7 +24,5 @@ export default function Footer(){
         <div className="FooterIcon"><div><FaMailBulk className="Icon"/> </div><p>info@oceanacademy.in </p></div>
         <div className="FooterIcon"><div><FaSearchLocation className="Icon"/> </div><p> No.10, 2nd Floor, 45 Feet Road, Vengateswara Nagar, Near HDFC Bank, Saram, Puducherry-605013. </p></div>
     </div>
-
-    
     </section>;
 }

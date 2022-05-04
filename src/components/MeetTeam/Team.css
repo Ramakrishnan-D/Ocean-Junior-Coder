@@ -60,7 +60,8 @@
     transition: 2s;
 }
 .facebook:hover{
-    background-color: #4267B2;
+    color: #4267B2;
+    background: #4267B2;
 }
 .instagram:hover{
     background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, 
@@ -68,7 +69,8 @@
 
 }    
 .twitter:hover{
-    background-color: #1DA1F2;
+    color: white;
+    background: #1DA1F2;
 }
 .WholeTeam{
     display: flex;
