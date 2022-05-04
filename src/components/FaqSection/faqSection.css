@@ -21,14 +21,14 @@
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  transition: 0.4s;
+  transition: 1s;
 }
 .faqQuestion p {
   /* margin-right: 10px; */
   font-size: 22px;
   display: inline;
 }
-.arrowDropdown {
+.arrowDrop {
   /* display: flex;
   align-items: center;
   justify-content: end; */
@@ -37,11 +37,20 @@
 }
 .faqAnswer {
   background-color: chocolate;
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   text-align: left;
-  /* max-height: 0;
   overflow: hidden;
-  transition: max-height 0.2s ease-out; */
+  transition: 0.2s ease-out;
 }
-/* .active {
-} */
+.faqAnswer p {
+  padding: 20px;
+}
+
+.active,
+.faqQuestion:hover {
+  background-color: #ccc;
+}

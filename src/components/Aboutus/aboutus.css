@@ -1,74 +1,69 @@
-
-
-.AboutusMain{
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(to right, #7563F3 , #9B51BC);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 0;   
-    
+.AboutusMain {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, #7563f3, #9b51bc);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
 }
 
-.AboutusContentMain{
-    width: 45%;
-    height: 100%;  
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;   
+.AboutusContentMain {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.AboutusContent{
-    color: white;
-    margin: 20px;
-    /* border-radius: 15px; */
-    padding: 20px;
-    
+.AboutusContent {
+  color: white;
+  margin: 20px;
+  /* border-radius: 15px; */
+  padding: 20px;
 }
-.AboutusContent h1{
-    font-size: xx-large;
-    margin-bottom: 20px;
-    text-align: center;
+.AboutusContent h1 {
+  font-size: xx-large;
+  margin-bottom: 20px;
+  text-align: center;
 }
 /* @keyframes AboutusContent {
     from {top: 0;}
     to {top: auto;}
   } */
-.AboutusContent p{
-    text-align: justify;
-    line-height: normal;
-    word-spacing: 3px;
-    
+.AboutusContent p {
+  text-align: justify;
+  line-height: normal;
+  word-spacing: 3px;
 }
-.AboutusImage{
-    width: 45%;
-    height: 100%; 
-    border-radius: 20px;
-    padding: 10px;
+.AboutusImage {
+  width: 45%;
+  height: 100%;
+  border-radius: 20px;
+  padding: 10px;
 }
-.AboutusImage img{
-    width: 100%;
-    border-radius: 20px;
-    height: 100%;
+.AboutusImage img {
+  width: 100%;
+  border-radius: 20px;
+  height: 100%;
 }
 
-@media (max-width:860px) {
-    .AboutusMain{  
-        flex-direction: column-reverse;
-    }  
-    .AboutusContentMain{
-        width: 100%;
-        height: auto;    
-    }
-    .AboutusContent h1{
-        font-size: 180%  
-    }
-    .AboutusContent p{
-        font-size: 90%
-    }
-    .AboutusImage{
-        width: auto;
-        padding: 20px;
-    }   
+@media (max-width: 860px) {
+  .AboutusMain {
+    flex-direction: column-reverse;
+  }
+  .AboutusContentMain {
+    width: 100%;
+    height: auto;
+  }
+  .AboutusContent h1 {
+    font-size: 180%;
+  }
+  .AboutusContent p {
+    font-size: 90%;
+  }
+  .AboutusImage {
+    width: auto;
+    padding: 20px;
+  }
 }
