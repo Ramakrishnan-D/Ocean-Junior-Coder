@@ -1,6 +1,7 @@
 /* Header Section */
 .navbar {
-  background-color: #e8456c;
+  /* background-color: #e8456c; */
+  background-color: #6b1ee1;
   height: 4rem;
   display: flex;
   align-items: center;
@@ -28,20 +29,35 @@
   justify-content: space-between;
 }
 .register {
-  background-color: cadetblue;
+  background-image: linear-gradient(to right, #dd9e22, #e0c633df);
   border-width: 1.5px;
   border-color: rgb(6, 6, 6);
-  background: linear-gradient(#9e6580);
+
   border-style: solid;
-  border-radius: 15%;
-  padding: 10px;
+  border-radius: 10px;
+
+  padding: 10px 12px;
+  border: none;
+  font-weight: 700;
+  transition: 1s;
+  user-select: none;
+}
+.register:hover {
+  background-image: linear-gradient(to left, #dd9e22, #e0c633df);
 }
 .signIn {
   margin: 0px 40px;
-  background-color: cadetblue;
+  background-image: linear-gradient(to right, #dd9e22, #e0c633df);
   border-width: 1.5px;
   border-color: rgb(6, 6, 6);
   border-style: solid;
-  border-radius: 15%;
-  padding: 7px;
+  border-radius: 10px;
+  padding: 10px 12px;
+  border: none;
+  font-weight: 700;
+  transition: 1s;
+  user-select: none;
+}
+.signIn:hover {
+  background-image: linear-gradient(to left, #dd9e22, #e0c633df);
 }
