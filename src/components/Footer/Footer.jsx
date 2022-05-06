@@ -4,7 +4,7 @@ import { FaMobile, FaMailBulk, FaSearchLocation } from "react-icons/fa";
 import DropDown from "../DropDown/DropDown.jsx";
 export default function Footer() {
   return (
-    <section className="FooterSection">
+    <section id="footer" className="FooterSection">
       <div className="Logo">
         <h3>Ocean Kids Coding</h3>
         <p>

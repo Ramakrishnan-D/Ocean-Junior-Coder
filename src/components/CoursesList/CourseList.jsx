@@ -4,7 +4,7 @@ import "./courseList.css";
 
 export default function CourseList(props) {
   return (
-    <div className="coursesListOutermost">
+    <div id="courses" className="coursesListOutermost">
       <div className="coursesListsOuter">
         <div className="coursesLists">
           {courseList.map((value, index) => {

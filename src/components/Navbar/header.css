@@ -22,11 +22,15 @@
 }
 
 .menus {
+  text-decoration: none;
   color: rgba(248, 245, 245, 0.836);
   font-weight: 700;
   /* display: flex;
     justify-content: space-between; */
   margin-left: 40px;
+}
+.menus:hover {
+  color: #e0c633;
 }
 .login {
   display: flex;

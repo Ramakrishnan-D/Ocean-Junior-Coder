@@ -30,10 +30,10 @@
   cursor: pointer;
   user-select: none;
 }
-.menu:hover {
+.dropDown .menu:hover {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.289);
 }
-.menu:active {
+.dropDown .menu:active {
   transform: scale(0.95);
 }
 .title {
@@ -42,7 +42,6 @@
 
 .dropList {
   position: relative;
-  /* top: 50px; */
   background-color: rgb(255, 235, 252);
   height: 0px;
   width: 250px;

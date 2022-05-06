@@ -12,10 +12,16 @@ export default function Navbar() {
         </div>
         <div className="menu">
           <div className="menus">Home</div>
-          <div className="menus">Courses</div>
-          <div className="menus">About Us</div>
+          <a href="#courses" className="menus">
+            Courses
+          </a>
+          <a href="#aboutUs" className="menus">
+            About Us
+          </a>
           <div className="menus">FAQ</div>
-          <div className="menus">Contact</div>
+          <a href="#footer" className="menus">
+            Contact
+          </a>
         </div>
         <div className="login">
           <div className="register">Register</div>
