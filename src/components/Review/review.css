@@ -14,7 +14,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 20px 40px 20px;
+    margin: 20px 30px 20px;
     padding: 0 30px 20px;
     /* background-color: #7563F3; */
     background-image:linear-gradient(to right, #7563F3 , #9B51BC); 
@@ -119,4 +119,11 @@
 .isSelect{
     transform: scale(1.2);
     transition: 0.5s;
+}
+
+@media (max-width:920px) {
+    .ParentMainReviewContent{
+        width: 400px !important;
+        overflow: hidden;
+    }
 }

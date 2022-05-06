@@ -3,7 +3,7 @@ import "./MobileApp.css";
 export default function MobileApp(){
     return <section className='MobileApp'>
      <div className='FirstContent'>
-        <div className='FirstContentChild '><h1>Mobile App Features</h1> </div>
+        <div className='FirstContentChild'><h1>Mobile App Features</h1> </div>
         <div className='FirstContentChild'><p>Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. 
         Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. 
         Quisque vitae sodales lectus.</p></div>
