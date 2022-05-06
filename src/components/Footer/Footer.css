@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     color: white;
-    padding: 30px;
+    padding: 20px;
 
 }
 .Logo{
@@ -15,7 +15,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 30px 50px;
+    padding: 10px;
 }
 .Logo h3{
     text-align: left;
@@ -23,7 +23,7 @@
 .Logo p{
     font-size: 17px;
     text-align: justify;
-    padding: 20px;
+    padding: 10px;
 }
 .FooterLink{
     width: 300px; 
@@ -32,7 +32,7 @@
     align-items: center;
     text-align: left;
     flex-direction: column;
-    margin: 30px 50px;
+    margin: 20px;
 }
 .FooterLink a{
     margin: 7px;
@@ -46,7 +46,7 @@
     display: flex;   
     flex-direction: column;
     text-align: left;
-    margin: 30px 50px;
+    margin: 20px 50px;
 }
 
 .FooterIcon{
@@ -66,4 +66,14 @@
 }
 .FooterIcon p{
     font-size: 15px;
+}
+
+@media (max-width:1090px) {
+    .FooterContact{
+        text-align: center;
+    } 
+
+    .FooterIcon{
+        text-align: justify;    
+    }
 }
