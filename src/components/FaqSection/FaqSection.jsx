@@ -39,7 +39,7 @@ export default function FaqSection() {
 
   return (
     <div className="faqSection">
-      <h1>Frequently Asked Questions? (FAQ's)</h1>
+      <p>Frequently Asked Questions? (FAQ's)</p>
       {faqData.map((faqData, key) => {
         return (
           <div key={key} className="faqSectionOuter">

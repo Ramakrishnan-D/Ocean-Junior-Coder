@@ -8,17 +8,21 @@
   justify-content: space-between;
   width: 100%;
 }
-.navbar img {
-  width: 75%;
+.logo {
+  margin-left: 20px;
+}
+.logo img {
+  width: 300px;
   height: 2.3rem;
 }
 .menu {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .menus {
-  color: rgb(248, 245, 245);
+  color: rgba(248, 245, 245, 0.836);
   font-weight: 700;
   /* display: flex;
     justify-content: space-between; */
@@ -39,7 +43,7 @@
   padding: 10px 12px;
   border: none;
   font-weight: 700;
-  transition: 1s;
+  /* transition: 1s; */
   user-select: none;
 }
 .register:hover {
@@ -55,9 +59,72 @@
   padding: 10px 12px;
   border: none;
   font-weight: 700;
-  transition: 1s;
+  /* transition: 1s; */
   user-select: none;
 }
 .signIn:hover {
   background-image: linear-gradient(to left, #dd9e22, #e0c633df);
+}
+.menuSymbol {
+  display: none;
+}
+
+@media screen and (max-width: 1160px) {
+  .logo img {
+    width: 270px;
+    height: 2rem;
+  }
+  .menus {
+    margin-left: 20px;
+    font-weight: 600;
+  }
+  .register {
+    font-size: 16px;
+    padding: 8px 10px;
+  }
+  .signIn {
+    font-size: 16px;
+
+    padding: 8px 10px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .logo img {
+    width: 240px;
+    height: 1.8rem;
+  }
+  .menus {
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .register {
+    font-size: 16px;
+    padding: 8px 10px;
+  }
+  .signIn {
+    font-size: 16px;
+
+    padding: 8px 10px;
+  }
+}
+@media screen and (max-width: 880px) {
+  .menus {
+    display: none;
+  }
+  .register {
+    display: none;
+  }
+  .signIn {
+    display: none;
+  }
+  .menuSymbol {
+    display: flex;
+    height: 64px;
+    width: 64px;
+    color: rgb(248, 245, 245);
+
+    align-items: center;
+    font-size: 40px;
+  }
 }

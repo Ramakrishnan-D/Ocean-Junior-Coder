@@ -1,6 +1,7 @@
 import React from "react";
 import logoImg from "./logo.svg";
 import "./header.css";
+import { FiMenu } from "react-icons/fi";
 
 export default function Navbar() {
   return (
@@ -19,6 +20,9 @@ export default function Navbar() {
         <div className="login">
           <div className="register">Register</div>
           <div className="signIn">Sign In</div>
+        </div>
+        <div className="menuSymbol">
+          <FiMenu />
         </div>
       </div>
     </section>

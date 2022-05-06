@@ -2,7 +2,11 @@
 .faqSection {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
+  margin-top: 50px;
+}
+.faqSection p {
+  font-size: 40px;
+  font-weight: 700;
 }
 .faqSectionOuter {
   display: flex;
@@ -16,6 +20,8 @@
   border-style: solid;
   border-width: 1.5px;
   background-color: beige;
+  /* border: 10px; */
+  /* border: none; */
 }
 .faqQuestionInner {
   display: flex;
@@ -23,17 +29,13 @@
   padding: 10px;
   transition: 1s;
 }
-.faqQuestion p {
+.faqSection .faqQuestion p {
   /* margin-right: 10px; */
   font-size: 22px;
   display: inline;
 }
 .arrowDrop {
-  /* display: flex;
-  align-items: center;
-  justify-content: end; */
-  height: 30px;
-  width: 30px;
+  font-size: 25px;
 }
 .faqAnswer {
   background-color: chocolate;
@@ -53,4 +55,70 @@
 .active,
 .faqQuestion:hover {
   background-color: #ccc;
+}
+
+@media screen and (max-width: 1100px) {
+  .faqSectionInner {
+    width: 60%;
+  }
+  .faqSection p {
+    font-size: 36px;
+  }
+  .faqSection .faqQuestion p {
+    font-size: 20px;
+  }
+  .faqAnswer p {
+    padding: 16px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .faqSectionInner {
+    width: 65%;
+  }
+  .faqSection p {
+    font-size: 32px;
+  }
+  .faqSection .faqQuestion p {
+    font-size: 18px;
+  }
+  .faqAnswer p {
+    padding: 14px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .faqSectionInner {
+    width: 70%;
+  }
+  .faqSection p {
+    font-size: 25px;
+  }
+  .faqSection .faqQuestion p {
+    font-size: 20px;
+  }
+  /* .faqQuestionInner {
+    padding: 8px;
+  } */
+  /* .faqAnswer p {
+    padding: 10px;
+  } */
+}
+@media screen and (max-width: 600px) {
+  .faqSectionInner {
+    width: 75%;
+  }
+  .faqSection p {
+    font-size: 22px;
+  }
+  .faqSection .faqQuestion p {
+    font-size: 16px;
+  }
+  .faqQuestionInner {
+    padding: 6px;
+  }
+  /* .faqAnswer p {
+    padding: 10px;
+  } */
+  .arrowDrop {
+    font-size: 20px;
+  }
 }

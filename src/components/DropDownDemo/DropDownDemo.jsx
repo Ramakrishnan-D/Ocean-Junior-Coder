@@ -5,6 +5,7 @@ import dropDownListData from "./dropDownListData";
 
 export default function DropDownDemo() {
   const [isClicked, setIsClicked] = useState(false);
+  const [topValue, setTopValue] = useState(0);
 
   //   function showDrop(index) {
   //     let height = document.(".dropList");
@@ -25,9 +26,10 @@ export default function DropDownDemo() {
       </div>
 
       <div className="dropList" style={{ height: isClicked ? "200px" : 0 }}>
+        <div className="listSelector"></div>
         <ul>
           {dropDownListData.map((listValue, key) => {
-            return <li> {listValue.fruit}</li>;
+            return <li className="listItem">{listValue.fruit}</li>;
           })}
         </ul>
       </div>

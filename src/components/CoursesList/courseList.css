@@ -19,21 +19,31 @@
   display: flex;
   justify-content: space-evenly;
   margin-top: 100px;
+  flex-wrap: wrap;
 }
 .courseComponent {
   border-style: solid;
   border-width: 1.5px;
   border-radius: 30px;
-  width: 300px;
+  width: 320px;
   padding: 40px;
   background-image: linear-gradient(to bottom right, #5031f4, #0fbaf6, #a2f7c6);
+  /* background-image: linear-gradient(to left, #dd9e22, #e0c633df); */
+  margin: 20px;
 }
 .ageSlot {
   display: flex;
   justify-content: space-between;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 600;
+  color: black;
 }
 .courseComponent h1 {
-  font-size: 30px;
+  margin-top: 15px;
+  font-size: 24px;
+}
+.courseComponent li {
+  color: rgba(0, 0, 0, 0.862);
+  margin-top: 5px;
+  font-size: 20px;
 }

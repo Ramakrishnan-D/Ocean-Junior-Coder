@@ -8,8 +8,6 @@ const courseList = [
           "Lorem ipsum dolor elit",
           "Lorem ipsum dolor elit",
           "Lorem ipsum dolor elit",
-          "Lorem ipsum dolor elit",
-          "Lorem ipsum dolor elit",
         ],
       },
       {
@@ -18,15 +16,11 @@ const courseList = [
           "Lorem ipsum dolor elit",
           "Lorem ipsum dolor elit",
           "Lorem ipsum dolor elit",
-          "Lorem ipsum dolor elit",
-          "Lorem ipsum dolor elit",
         ],
       },
       {
         title: "Wizard Level 3",
         course: [
-          "Lorem ipsum dolor elit",
-          "Lorem ipsum dolor elit",
           "Lorem ipsum dolor elit",
           "Lorem ipsum dolor elit",
           "Lorem ipsum dolor elit",
@@ -43,8 +37,6 @@ const courseList = [
           "Lorem ipsum dolor elit",
           "Lorem ipsum dolor elit",
           "Lorem ipsum dolor elit",
-          "Lorem ipsum dolor elit",
-          "Lorem ipsum dolor elit",
         ],
       },
       {
@@ -53,15 +45,11 @@ const courseList = [
           "Lorem ipsum dolor elit",
           "Lorem ipsum dolor elit",
           "Lorem ipsum dolor elit",
-          "Lorem ipsum dolor elit",
-          "Lorem ipsum dolor elit",
         ],
       },
       {
         title: "Wizard Level 3",
         course: [
-          "Lorem ipsum dolor elit",
-          "Lorem ipsum dolor elit",
           "Lorem ipsum dolor elit",
           "Lorem ipsum dolor elit",
           "Lorem ipsum dolor elit",
@@ -78,8 +66,6 @@ const courseList = [
           "Lorem ipsum dolor elit",
           "Lorem ipsum dolor elit",
           "Lorem ipsum dolor elit",
-          "Lorem ipsum dolor elit",
-          "Lorem ipsum dolor elit",
         ],
       },
       {
@@ -88,15 +74,11 @@ const courseList = [
           "Lorem ipsum dolor elit",
           "Lorem ipsum dolor elit",
           "Lorem ipsum dolor elit",
-          "Lorem ipsum dolor elit",
-          "Lorem ipsum dolor elit",
         ],
       },
       {
         title: "Wizard Level 3",
         course: [
-          "Lorem ipsum dolor elit",
-          "Lorem ipsum dolor elit",
           "Lorem ipsum dolor elit",
           "Lorem ipsum dolor elit",
           "Lorem ipsum dolor elit",
