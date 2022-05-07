@@ -1,7 +1,15 @@
+
 /* CouseList Section */
 .coursesListOutermost {
   display: flex;
+  align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+.coursesListOutermost p{
+  font-size:40px;
+  color: #7563f3;
+  margin-top: 50px;
 }
 .coursesListsOuter {
   /* display: flex;
@@ -18,32 +26,52 @@
 .coursesLists {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 100px;
+  margin: 30px;
   flex-wrap: wrap;
 }
 .courseComponent {
-  border-style: solid;
-  border-width: 1.5px;
-  border-radius: 30px;
+  /* border-style: solid;
+  border-width: 1.5px; */
+  border: none;
+  border-radius: 20px;
   width: 320px;
-  padding: 40px;
-  background-image: linear-gradient(to bottom right, #5031f4, #0fbaf6, #a2f7c6);
-  /* background-image: linear-gradient(to left, #dd9e22, #e0c633df); */
-  margin: 20px;
+  padding: 30px;
+  background-color:#7E57C2;;
+  /* background-image: url("./image/image2.jpg"); */
+  /* background-color: #7E57C2; */
+  /* background-image: linear-gradient(to left, #dd9e22, #e0c633df);*/
+  margin: 10px;
+  color: whitesmoke;
+  transition: 0.5s;
+  box-shadow: 0 0 10px #7E57C2;
+}
+.courseComponent:hover{
+  transform: scale(1.03);
+  transition: 0.5s ease-in;
+  color: #7E57C2;
+  background-color:white;
+
+}
+.courseName{
+  margin: 10px 10px 20px;
+  font-size: 29px;
+}
+.courseName:hover{
+  text-decoration: underline;
 }
 .ageSlot {
   display: flex;
   justify-content: space-between;
-  font-size: 26px;
-  font-weight: 600;
-  color: black;
+  font-size: 20px;
+  /* font-weight: 400; */
+  /* color: black; */
 }
 .courseComponent h1 {
   margin-top: 15px;
-  font-size: 24px;
+  font-size: 20px;
 }
 .courseComponent li {
-  color: rgba(0, 0, 0, 0.862);
+  /* color: rgba(0, 0, 0, 0.862); */
   margin-top: 5px;
-  font-size: 20px;
+  font-size: 17px;
 }

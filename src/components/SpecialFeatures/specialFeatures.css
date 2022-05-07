@@ -1,7 +1,7 @@
 /* Special Features Section */
 
 .specialFeaturesOuter {
-  background-color: rgba(186, 203, 233, 0.839);
+  background-image:linear-gradient(to right, #7563f3, #9b51bc);
   display: flex;
   /* height: 80vh; */
   margin-top: 50px;
@@ -52,9 +52,12 @@
 }
 .featureKnowMoreBtn {
   background-color: cornsilk;
-  border: solid chocolate;
+  /* border: solid chocolate;
   border-width: 3.5px;
-  border-radius: 20px;
+  border-radius: 20px; */
+  color: #29033b;
+  border: none;
+  border-radius: 10px;
   width: 150px;
   height: 50px;
   margin-top: 50px;
@@ -63,6 +66,13 @@
   justify-content: center;
   font-weight: 600;
   font-size: 20px;
+  transition: 0.5s;
+}
+.featureKnowMoreBtn:hover{
+  background-color: #29033b;
+  background-image: linear-gradient(to right, #260bd59b , #29033b);
+  color: white;
+  transition: 0.5s;
 }
 .featuresIconPart1 {
   margin-top: 50px;
@@ -93,10 +103,16 @@
   }
 
   .featuresPart2Inner h1 {
-    width: 250px;
+    /* width: 250px; */
+    width: auto;
   }
   .featuresPart2Inner p {
+    height: auto;
     width: 280px;
+    font-size: 50px;
+    text-align: justify;
+    line-height: 2px;
+    letter-spacing: 2px;
   }
   .featuresParts {
     align-items: center;
@@ -114,7 +130,9 @@
   .featuresPart2Inner p {
     font-size: 18px;
     margin-top: 30px;
-    width: 120%;
+    /* width: 120%; */
+    /* width: auto;
+    height: auto; */
   }
 }
 

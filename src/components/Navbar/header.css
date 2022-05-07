@@ -2,7 +2,7 @@
 navbar {
   /* background-color: #e8456c; */
   background-color: #6b1ee1;
-  height: 4rem;
+  height: 5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -58,11 +58,28 @@ navbar.navbar-fixed {
   color: #e0c633;
 }
 .login {
+  position: relative;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 300px;
+  height: 5rem;
+  /* background-color: aqua; */
+  padding: 20px;
+}
+.registerParent{
+  position: relative;
+  width: 100px;
+  height: 40px;
+  /* background-color: #6b1ee1; */
 }
 .register {
-  background-image: linear-gradient(to right, #dd9e22, #e0c633df);
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  /* margin: 10px; */
+  background-color: white;
   border-width: 1.5px;
   border-color: rgb(6, 6, 6);
 
@@ -74,16 +91,49 @@ navbar.navbar-fixed {
   font-weight: 700;
   /* transition: 1s; */
   user-select: none;
+  cursor: pointer;
 }
 .register:hover {
-  background-image: linear-gradient(to left, #dd9e22, #e0c633df);
+  color: white;
+  background-color: #29033b;
+    background-image: linear-gradient(to right, #260bd59b , #29033b);
+}
+.RegisterPopUp{
+  margin-top: 30px;
+  /* margin-right: 100px; */
+  /* margin: 30px; */
+  padding: 20px;
+  height: 250px;
+  width: 200px;
+    background-color: #6b1ee1;
+  border-radius: 20px;
+  display: none;
+}
+.RegisterPopUp input[type=text]{
+  width: 150px;
+  height: 30px;
+  
+}
+.RegisterPopUp button{
+  height: 40px;
+  width: 150px;
+  margin: 10px;
+}
+.signInParent{
+  position: relative;
+  width: 100px;
+  height: 40px;
+  /* background-color: #6b1ee1; */
 }
 .signIn {
-  margin: 0px 40px;
-  background-image: linear-gradient(to right, #dd9e22, #e0c633df);
-  border-width: 1.5px;
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  /* margin: 0px 40px; */
+  background-color: white;
+  /* border-width: 1.5px;
   border-color: rgb(6, 6, 6);
-  border-style: solid;
+  border-style: solid; */
   border-radius: 10px;
   padding: 10px 12px;
   border: none;
@@ -92,7 +142,9 @@ navbar.navbar-fixed {
   user-select: none;
 }
 .signIn:hover {
-  background-image: linear-gradient(to left, #dd9e22, #e0c633df);
+  color: white;
+  background-color: #29033b;
+    background-image: linear-gradient(to right, #260bd59b , #29033b);
 }
 .menuSymbol {
   display: none;

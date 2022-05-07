@@ -5,7 +5,7 @@ import { AiOutlineDown, AiOutlineUp } from "react-icons/ai";
 
 export default function FaqSection() {
   const [isClicked, setIsClicked] = useState(0);
-  const [QuestionclassName, setQuestionclassName] = useState("");
+  const [QuestionclassName, setQuestionclassName] = useState(false);
 
   // function TogglePanel() {
   //   const [icon, setIcon] = useState(" IoIosArrowDropdown");
@@ -37,11 +37,13 @@ export default function FaqSection() {
     console.log(els[index].clientHeight);
     return els[index].clientHeight;
   }
-  function setBackgroundColor() {}
 
   return (
     <div id="faq" className="faqSection">
-      <p>Frequently Asked Questions? (FAQ's)</p>
+      <p>
+        Frequently Asked Questions? <br />
+        (FAQ's)
+      </p>
       {faqData.map((faqData, key) => {
         return (
           <div key={key} className="faqSectionOuter">
@@ -49,14 +51,15 @@ export default function FaqSection() {
               <div className="faqQuestion">
                 <div
                   className="faqQuestionInner"
+                  id={`{ ${QuestionclassName && "FaqQuestionSelected "} }`}
                   onClick={() => {
-                    setQuestionclassName("FAQQuestionHover");
                     getHeight(key);
                     if (isClicked == key + 1) {
                       setIsClicked(0);
                     } else {
                       setIsClicked(key + 1);
                     }
+                    setQuestionclassName(!QuestionclassName);
                   }}
                 >
                   <p>{faqData.question}</p>

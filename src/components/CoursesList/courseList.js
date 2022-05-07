@@ -1,9 +1,10 @@
 const courseList = [
   {
     age: "8-10",
+    courseName: "Scratch",
     levels: [
       {
-        title: "Wizard Level 1",
+        title: "Level 1",
         course: [
           "Lorem ipsum dolor elit",
           "Lorem ipsum dolor elit",
@@ -11,7 +12,7 @@ const courseList = [
         ],
       },
       {
-        title: "Wizard Level 2",
+        title: "Level 2",
         course: [
           "Lorem ipsum dolor elit",
           "Lorem ipsum dolor elit",
@@ -19,7 +20,7 @@ const courseList = [
         ],
       },
       {
-        title: "Wizard Level 3",
+        title: "Level 3",
         course: [
           "Lorem ipsum dolor elit",
           "Lorem ipsum dolor elit",
@@ -30,59 +31,45 @@ const courseList = [
   },
   {
     age: "11-13",
+    courseName: "Python",
     levels: [
       {
-        title: "Wizard Level 1",
+        title: "Level 1",
         course: [
-          "Lorem ipsum dolor elit",
-          "Lorem ipsum dolor elit",
-          "Lorem ipsum dolor elit",
+          "Introduction",
+          "Variables Declaration",
+          "Operators & its Types",
         ],
       },
       {
-        title: "Wizard Level 2",
-        course: [
-          "Lorem ipsum dolor elit",
-          "Lorem ipsum dolor elit",
-          "Lorem ipsum dolor elit",
-        ],
+        title: "Level 2",
+        course: ["Datatypes", "Functions"],
       },
       {
-        title: "Wizard Level 3",
-        course: [
-          "Lorem ipsum dolor elit",
-          "Lorem ipsum dolor elit",
-          "Lorem ipsum dolor elit",
-        ],
+        title: "Level 3",
+        course: ["OOPS Concept", "Regular Expressions", "Database"],
       },
     ],
   },
   {
     age: "14-18",
+    courseName: "Java",
     levels: [
       {
-        title: "Wizard Level 1",
+        title: "Level 1",
         course: [
-          "Lorem ipsum dolor elit",
-          "Lorem ipsum dolor elit",
-          "Lorem ipsum dolor elit",
+          "Introduction",
+          "Variables Declaration",
+          "Operators & its Types",
         ],
       },
       {
-        title: "Wizard Level 2",
-        course: [
-          "Lorem ipsum dolor elit",
-          "Lorem ipsum dolor elit",
-          "Lorem ipsum dolor elit",
-        ],
+        title: "Level 2",
+        course: ["Datatypes", "Methods & its Type"],
       },
       {
-        title: "Wizard Level 3",
-        course: [
-          "Lorem ipsum dolor elit",
-          "Lorem ipsum dolor elit",
-          "Lorem ipsum dolor elit",
-        ],
+        title: "Level 3",
+        course: ["OOPS Concept", "Regular Expressions", "Database"],
       },
     ],
   },

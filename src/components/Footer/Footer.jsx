@@ -8,13 +8,17 @@ export default function Footer() {
       <div className="Logo">
         <h3>Ocean Kids Coding</h3>
         <p>
-          Ocean was founded on the principle of building, and implementinggreat
-          ideas that drive progress for the students ond clients.
+          Ocean Academy – computer education and consulting company, a pioneer
+          name in IT Education, software development and IT services industry
+          and we trained more than 5000 Students. From the beginning, the Ocean
+          was founded on the principle of building and implementing great ideas
+          that drive progress for the students and clients. It’s the only place
+          where technology and excellence meets.
         </p>
       </div>
 
       <div className="FooterLink">
-        <a href="#Homepage.jsx">Home</a>
+        <a href="#home">Home</a>
         <a href="#aboutUs">About Us</a>
         <a href="#courses">Courses</a>
         <a href="#Team">Team</a>

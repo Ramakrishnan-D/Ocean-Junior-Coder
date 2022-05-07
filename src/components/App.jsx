@@ -23,7 +23,8 @@ export default function App() {
       <Navbar />
       <HomePage />
       <Aboutus />
-      <OnlineCourses />
+
+      {/* <OnlineCourses /> */}
       <BenefitsSection />
       <CourseList />
       <FeaturesSection />
