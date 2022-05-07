@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import "./faqSection.css";
 import faqData from "./faqData";
-import { IoIosArrowDropdown, IoIosArrowDropup } from "react-icons/io";
+import { AiOutlineDown, AiOutlineUp } from "react-icons/ai";
 
 export default function FaqSection() {
   const [isClicked, setIsClicked] = useState(0);
+  const [QuestionclassName, setQuestionclassName] = useState("");
 
   // function TogglePanel() {
   //   const [icon, setIcon] = useState(" IoIosArrowDropdown");
@@ -48,6 +49,7 @@ export default function FaqSection() {
                 <div
                   className="faqQuestionInner"
                   onClick={() => {
+                    setQuestionclassName("FAQQuestionHover");
                     getHeight(key);
                     if (isClicked == key + 1) {
                       setIsClicked(0);
@@ -58,11 +60,7 @@ export default function FaqSection() {
                 >
                   <p>{faqData.question}</p>
                   <div className="arrowDrop">
-                    {isClicked == key + 1 ? (
-                      <IoIosArrowDropdown />
-                    ) : (
-                      <IoIosArrowDropup />
-                    )}
+                    {isClicked == key + 1 ? <AiOutlineUp /> : <AiOutlineDown />}
                   </div>
                 </div>
                 <div

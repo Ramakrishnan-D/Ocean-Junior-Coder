@@ -17,28 +17,36 @@
   width: 50%;
 }
 .faqQuestion {
-  border-style: solid;
-  border-width: 1.5px;
-  background-color: beige;
-  /* border: 10px; */
-  /* border: none; */
+ 
+  border: none;
+  border-bottom:2px  #9b51bc solid;
+  background-color: white;
+  
 }
 .faqQuestionInner {
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  transition: 1s;
-}
+  transition: 0.5s;
+  color: black;
+ }
+ .faqQuestionInner:hover{
+   background-image:linear-gradient(to right, #7563f3, #9b51bc); 
+   color: white;
+ }
+/* .faqQuestionInner p{ 
+  color: blueviolet;
+} */
 .faqSection .faqQuestion p {
   /* margin-right: 10px; */
   font-size: 22px;
   display: inline;
 }
 .arrowDrop {
-  font-size: 25px;
+  font-size: 20px;
 }
 .faqAnswer {
-  background-color: chocolate;
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
