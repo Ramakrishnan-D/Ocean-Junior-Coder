@@ -1,5 +1,5 @@
 /* Header Section */
-.navbar {
+navbar {
   /* background-color: #e8456c; */
   background-color: #6b1ee1;
   height: 4rem;
@@ -7,6 +7,31 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
+}
+/* header {
+  padding: 15px 0 0;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+} */
+navbar.navbar-fixed {
+  padding: 3px 0;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  transition: all 0.5s;
+  /* right: 0; */
+  z-index: 999;
+  /* background: #056a67; */
+  background-color: #6b1ee1;
+  -webkit-animation: headerFixed 300ms linear;
+  animation: headerFixed 300ms linear;
 }
 .logo {
   margin-left: 20px;

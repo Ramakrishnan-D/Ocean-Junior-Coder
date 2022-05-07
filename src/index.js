@@ -9,6 +9,21 @@ window.addEventListener("scroll", () => {
   let scroll = parseInt(window.scrollY);
   console.log(scroll);
   a = scroll;
+  if (scroll > 100) {
+    document.querySelector("navbar").style.position = "fixed";
+    document.querySelector("navbar").style.top = "-100px";
+  }
+  if (scroll < 100) {
+    document.querySelector("navbar").style.position = "absolute";
+    document.querySelector("navbar").style.top = "0px";
+  }
+  if (scroll > 160) {
+    document.querySelector("navbar").style.top = "0px";
+    document.querySelector("navbar").className = "navbar-fixed";
+  }
+  if (scroll < 160) {
+    document.querySelector("navbar").className = "";
+  }
 });
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

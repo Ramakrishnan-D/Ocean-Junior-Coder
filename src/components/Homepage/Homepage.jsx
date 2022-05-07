@@ -5,7 +5,7 @@ import coverImg from "./coverImg.webp";
 
 export default function HomePage() {
   return (
-    <section>
+    <section id="home">
       <div className="homePageOuter">
         <div className="homePageImg">
           <img src={coverImg} alt="coverImg" />
