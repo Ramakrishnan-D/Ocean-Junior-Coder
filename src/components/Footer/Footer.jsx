@@ -15,10 +15,10 @@ export default function Footer() {
 
       <div className="FooterLink">
         <a href="#Homepage.jsx">Home</a>
-        <a href="#Aboutus.jsx">About Us</a>
-        <a href="CourseList.jsx">Courses</a>
-        <a href="Team.jsx">Team</a>
-        <a href="Contact.jsx">Contact</a>
+        <a href="#aboutUs">About Us</a>
+        <a href="#courses">Courses</a>
+        <a href="#Team">Team</a>
+        <a href="#contact">Contact</a>
       </div>
 
       <div className="FooterContact">

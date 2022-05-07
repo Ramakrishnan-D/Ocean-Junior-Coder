@@ -37,9 +37,10 @@ export default function FaqSection() {
     console.log(els[index].clientHeight);
     return els[index].clientHeight;
   }
+  function setBackgroundColor() {}
 
   return (
-    <div className="faqSection">
+    <div id="faq" className="faqSection">
       <p>Frequently Asked Questions? (FAQ's)</p>
       {faqData.map((faqData, key) => {
         return (
