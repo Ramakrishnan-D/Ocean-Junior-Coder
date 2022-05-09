@@ -1,8 +1,8 @@
 /* HomePage Section */
-.homePageOuter{
+.homePageOuter {
   position: relative;
   height: 100%;
-  width: 100%; 
+  width: 100%;
   /* background-image: url("./coverImg.webp"); */
 }
 .homePageImg {
@@ -10,14 +10,14 @@
   z-index: -1;
   overflow: hidden;
   height: 100%;
-  width: 100%; 
-  /* object-fit: cover;*/
-   background-size: cover;
+  width: 100%;
+  /* object-fit: cover; */
+  background-size: cover;
 }
-.homePageImg img{
+.homePageImg img {
   height: 100%;
   width: 100%;
-} 
+}
 .coverTextOuter {
   height: 100vh;
   width: 50%;
