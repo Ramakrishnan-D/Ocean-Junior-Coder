@@ -2,6 +2,7 @@
 navbar {
   /* background-color: #e8456c; */
   background-color: #6b1ee1;
+  /* background-image: linear-gradient(to right, #1a237d, #126196, #06b0d3); */
   height: 4.2rem;
   display: flex;
   align-items: center;

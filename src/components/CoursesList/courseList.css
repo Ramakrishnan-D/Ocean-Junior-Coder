@@ -1,4 +1,3 @@
-
 /* CouseList Section */
 .coursesListOutermost {
   display: flex;
@@ -6,8 +5,8 @@
   justify-content: center;
   flex-direction: column;
 }
-.coursesListOutermost p{
-  font-size:40px;
+.coursesListOutermost p {
+  font-size: 50px;
   color: #7563f3;
   margin-top: 50px;
 }
@@ -15,7 +14,7 @@
   /* display: flex;
   flex-direction: column;
   justify-content: center; */
-  width: 80%;
+  width: 72%;
 }
 .courseSection {
   display: flex;
@@ -36,27 +35,33 @@
   border-radius: 20px;
   width: 320px;
   padding: 30px;
-  background-color:#7E57C2;;
+  /* background-color: #7628fc; */
+
   /* background-image: url("./image/image2.jpg"); */
   /* background-color: #7E57C2; */
-  /* background-image: linear-gradient(to left, #dd9e22, #e0c633df);*/
+  background-image: linear-gradient(to left, #7b1fa5ce, #4016acd3);
   margin: 10px;
   color: whitesmoke;
   transition: 0.5s;
-  box-shadow: 0 0 10px #7E57C2;
+  /* box-shadow: 0 0 10px #7e57c2; */
+  box-shadow: 0 0 10px #5722dd;
 }
-.courseComponent:hover{
-  transform: scale(1.03);
-  transition: 0.5s ease-in;
-  color: #7E57C2;
-  background-color:white;
+.courseComponent:hover {
+  transform: scale(1.2);
+  transition: 0.7s ease-in-out;
 
+  /* background-image: linear-gradient(to right, #000638, #033a6b); */
+  /* box-shadow: 0 0 10px #033a6b; */
+  color: rgb(150, 1, 1);
+  background-image: none;
+  background-color: black;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
 }
-.courseName{
+.courseName {
   margin: 10px 10px 20px;
   font-size: 29px;
 }
-.courseName:hover{
+.courseName:hover {
   text-decoration: underline;
 }
 .ageSlot {
