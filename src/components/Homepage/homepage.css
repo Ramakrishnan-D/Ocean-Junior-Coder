@@ -11,12 +11,13 @@
   overflow: hidden;
   height: 100%;
   width: 100%;
-  /* object-fit: cover; */
-  background-size: cover;
+  object-fit: cover;
+  /* background-size: cover; */
 }
 .homePageImg img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 .coverTextOuter {
   height: 100vh;
