@@ -14,25 +14,65 @@ export default function Navbar() {
       console.log("hello");
     }, 10000);
   }
+
+  function mouseOverFn(e) {
+    // console.log(e.target.id);
+
+    document.getElementById(e.target.id).style.color = "#e0c633";
+  }
+  function mouseLeaveFn(e) {
+    document.getElementById(e.target.id).style.color = "#ffff";
+  }
+
   return (
     <navbar>
       <div className="logo">
         <img src={logoImg} alt="logoImg" />
       </div>
-      <div className="menu">
-        <a href="#home" className="menus">
+      <div id="menu" className="menu">
+        <a
+          id="menu1"
+          onMouseOver={mouseOverFn}
+          onMouseLeave={mouseLeaveFn}
+          href="#home"
+          className="menus"
+        >
           Home
         </a>
-        <a href="#courses" className="menus">
+        <a
+          id="menu2"
+          onMouseOver={mouseOverFn}
+          onMouseLeave={mouseLeaveFn}
+          href="#courses"
+          className="menus"
+        >
           Courses
         </a>
-        <a href="#aboutUs" className="menus">
+        <a
+          id="menu3"
+          onMouseOver={mouseOverFn}
+          onMouseLeave={mouseLeaveFn}
+          href="#aboutUs"
+          className="menus"
+        >
           About Us
         </a>
-        <a href="#faq" className="menus">
+        <a
+          id="menu4"
+          onMouseOver={mouseOverFn}
+          onMouseLeave={mouseLeaveFn}
+          href="#faq"
+          className="menus"
+        >
           FAQ
         </a>
-        <a href="#footer" className="menus">
+        <a
+          id="menu5"
+          onMouseOver={mouseOverFn}
+          onMouseLeave={mouseLeaveFn}
+          href="#footer"
+          className="menus"
+        >
           Contact
         </a>
       </div>

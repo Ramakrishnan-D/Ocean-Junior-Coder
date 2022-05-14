@@ -2,7 +2,7 @@
 navbar {
   /* background-color: #e8456c; */
   background-color: #6b1ee1;
-  height: 5rem;
+  height: 4.2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -54,9 +54,9 @@ navbar.navbar-fixed {
     justify-content: space-between; */
   margin-left: 40px;
 }
-.menus:hover {
+/* .menus:hover {
   color: #e0c633;
-}
+} */
 .login {
   position: relative;
   display: flex;
@@ -68,7 +68,7 @@ navbar.navbar-fixed {
   /* background-color: aqua; */
   padding: 20px;
 }
-.registerParent{
+.registerParent {
   position: relative;
   width: 100px;
   height: 40px;
@@ -96,30 +96,29 @@ navbar.navbar-fixed {
 .register:hover {
   color: white;
   background-color: #29033b;
-    background-image: linear-gradient(to right, #260bd59b , #29033b);
+  background-image: linear-gradient(to right, #260bd59b, #29033b);
 }
-.RegisterPopUp{
+.RegisterPopUp {
   margin-top: 30px;
   /* margin-right: 100px; */
   /* margin: 30px; */
   padding: 20px;
   height: 250px;
   width: 200px;
-    background-color: #6b1ee1;
+  background-color: #6b1ee1;
   border-radius: 20px;
   display: none;
 }
-.RegisterPopUp input[type=text]{
+.RegisterPopUp input[type="text"] {
   width: 150px;
   height: 30px;
-  
 }
-.RegisterPopUp button{
+.RegisterPopUp button {
   height: 40px;
   width: 150px;
   margin: 10px;
 }
-.signInParent{
+.signInParent {
   position: relative;
   width: 100px;
   height: 40px;
@@ -144,7 +143,7 @@ navbar.navbar-fixed {
 .signIn:hover {
   color: white;
   background-color: #29033b;
-    background-image: linear-gradient(to right, #260bd59b , #29033b);
+  background-image: linear-gradient(to right, #260bd59b, #29033b);
 }
 .menuSymbol {
   display: none;
