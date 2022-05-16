@@ -3,11 +3,11 @@
   position: relative;
   height: 100%;
   width: 100%;
+  z-index: -1;
   /* background-image: url("./coverImg.webp"); */
 }
 .homePageImg {
   position: absolute;
-  z-index: -1;
   overflow: hidden;
   height: 100%;
   width: 100%;
