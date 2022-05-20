@@ -2,7 +2,10 @@ import React, { useState } from "react";
 import logoImg from "./logo.svg";
 import "./header.css";
 import { FiMenu } from "react-icons/fi";
-
+import { AiFillHome, AiFillPhone } from "react-icons/ai";
+import { BsPersonFill } from "react-icons/bs";
+import { FaQuestionCircle } from "react-icons/fa";
+import { MdCastForEducation } from "react-icons/md";
 export default function Navbar() {
   function registerPopUp() {
     const id = setInterval(() => {
@@ -37,7 +40,7 @@ export default function Navbar() {
           href="#home"
           className="menus"
         >
-          Home
+          <AiFillHome />
         </a>
         <a
           id="menu2"
@@ -46,7 +49,7 @@ export default function Navbar() {
           href="#courses"
           className="menus"
         >
-          Courses
+          <MdCastForEducation />
         </a>
         <a
           id="menu3"
@@ -55,7 +58,7 @@ export default function Navbar() {
           href="#aboutUs"
           className="menus"
         >
-          About Us
+          <BsPersonFill />
         </a>
         <a
           id="menu4"
@@ -64,7 +67,7 @@ export default function Navbar() {
           href="#faq"
           className="menus"
         >
-          FAQ
+          <FaQuestionCircle />
         </a>
         <a
           id="menu5"
@@ -73,7 +76,7 @@ export default function Navbar() {
           href="#footer"
           className="menus"
         >
-          Contact
+          <AiFillPhone />
         </a>
       </div>
       <div className="login">

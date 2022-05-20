@@ -1,4 +1,7 @@
 import React from "react";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import BenefitsSection from "./BenefitsSection/BenefitsSection";
 import HomePage from "./Homepage/Homepage";
 import Navbar from "./Navbar/Navbar";
@@ -18,6 +21,10 @@ import Ramakrishnan from "./Ramakrishnan";
 import Anusuya from "./Anusuya/Anusuya";
 
 export default function App() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+    AOS.refresh();
+  }, []);
   return (
     <>
       <Navbar />
@@ -37,7 +44,7 @@ export default function App() {
       <Contact />
       <Footer />
       <Anusuya />
-      <Ramakrishnan />
+      {/* <Ramakrishnan /> */}
     </>
   );
 }

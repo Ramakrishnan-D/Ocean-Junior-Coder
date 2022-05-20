@@ -20,6 +20,8 @@
     background-image:linear-gradient(to right, #7563F3 , #9B51BC); 
     border-radius: 30px;
     transition: 0.5s;
+    cursor: pointer;
+    user-select: none;
     /* box-shadow: 10px 10px 10px gray; */
 }
 #ContentMiddleReview{
@@ -81,6 +83,7 @@
     
 }
 .MainReviewTitle {
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;  
@@ -104,6 +107,7 @@
     overflow: hidden;
     height:700px;
     transition: 0.5s;
+    background-color: #9B51BC;
 }
 .MainReviewContent{
     position: absolute;

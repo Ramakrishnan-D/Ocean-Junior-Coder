@@ -10,7 +10,7 @@ export default function CourseList(props) {
         <div className="coursesLists">
           {courseList.map((value, index) => {
             return (
-              <div className="courseComponent">
+              <div className="courseComponent" data-aos="zoom-in">
                 <div className="courseName">{value.courseName}</div>
                 <div className="ageSlot">
                   <div>Ages {value.age}</div>

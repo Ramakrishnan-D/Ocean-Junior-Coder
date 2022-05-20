@@ -1,12 +1,14 @@
 import React from "react";
 import image from "./images/child.png";
+
 import "../Aboutus/aboutus.css";
+import "./index.js";
 export default function Aboutus() {
   return (
     <section id="aboutUs">
       <div className="AboutusMain">
         <div className="AboutusContentMain">
-          <div className="AboutusContent">
+          <div className="AboutusContent" data-aos="fade-up-right">
             <h1>Ocean Kids Coding</h1>
             <p>
               Computer technology and consultancy firm Ocean Academy, a leading
@@ -19,7 +21,7 @@ export default function Aboutus() {
             </p>
           </div>
         </div>
-        <div className="AboutusImage">
+        <div className="AboutusImage" data-aos="fade-up-left">
           <img src={image} alt="aboutimage" />
         </div>
       </div>

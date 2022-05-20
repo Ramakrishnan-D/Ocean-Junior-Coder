@@ -1,6 +1,5 @@
 import React from "react";
-export default function Anusuya(){
-    return <section>
-        
-    </section>
+import Demo from "../Demo/Demo.jsx";
+export default function Anusuya() {
+  return <Demo />;
 }

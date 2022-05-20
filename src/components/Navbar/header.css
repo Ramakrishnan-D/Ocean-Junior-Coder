@@ -11,6 +11,7 @@ navbar {
   z-index: 999;
   position: fixed;
   top: 0px;
+  color: #6b1ee1;
 }
 
 navbar.navbar-fixed {
@@ -21,9 +22,10 @@ navbar.navbar-fixed {
   transition: all 0.5s;
   z-index: 999;
   /* background: #056a67; */
-  background-color: #6c1ee1;
+  /* background-color: #6c1ee1; */
   -webkit-animation: headerFixed 300ms linear;
   animation: headerFixed 300ms linear;
+  color: #6b1ee1;
 }
 .logo {
   margin-left: 20px;
@@ -31,6 +33,7 @@ navbar.navbar-fixed {
 .logo img {
   width: 300px;
   height: 2.3rem;
+  background-image: #3b117b;
 }
 .menu {
   display: flex;
@@ -45,6 +48,7 @@ navbar.navbar-fixed {
   /* display: flex;
     justify-content: space-between; */
   margin-left: 40px;
+  color: #0e0121;
 }
 /* .menus:hover {
   color: #e0c633;

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
-import { FaMobile, FaMailBulk, FaSearchLocation } from "react-icons/fa";
+import { AiFillMail, AiFillPhone } from "react-icons/ai";
+import { ImLocation2 } from "react-icons/im";
 import DropDown from "../DropDown/DropDown.jsx";
 export default function Footer() {
   return (
@@ -29,19 +30,19 @@ export default function Footer() {
         <p>CONTACT</p>
         <div className="FooterIcon">
           <div>
-            <FaMobile className="Icon" />{" "}
+            <AiFillPhone className="Icon" />{" "}
           </div>{" "}
           <p>0413-2240580 </p>
         </div>
         <div className="FooterIcon">
           <div>
-            <FaMailBulk className="Icon" />{" "}
+            <AiFillMail className="Icon" />{" "}
           </div>
           <p>info@oceanacademy.in </p>
         </div>
         <div className="FooterIcon">
           <div>
-            <FaSearchLocation className="Icon" />{" "}
+            <ImLocation2 className="Icon" />{" "}
           </div>
           <p>
             {" "}

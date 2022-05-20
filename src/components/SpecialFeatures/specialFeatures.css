@@ -100,6 +100,8 @@
   }
   .featuresIconPart2 {
     display: flex;
+    width: auto;
+    height: auto;
   }
 
   .featuresPart2Inner h1 {
@@ -108,8 +110,9 @@
   }
   .featuresPart2Inner p {
     height: auto;
-    width: 280px;
-    font-size: 50px;
+    width: auto;
+    font-size: 15px;
+    /* font-size: 50px; */
     text-align: justify;
     line-height: 2px;
     letter-spacing: 2px;
